@@ -8,7 +8,7 @@
 
   //TIENDA
   $(function () {
-    var init = "Sin objetos en el carrito!";
+    var init = "0";
     var counter = 0;
     // Valor inicial
     $(".counter").html(init);
