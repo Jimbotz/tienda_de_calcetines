@@ -1,0 +1,15 @@
+.maps{
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+    .maps{
+        margin: 10px auto;
+        display: block;
+        border-radius: 10px;
+        width: 80%;
+    }
+}

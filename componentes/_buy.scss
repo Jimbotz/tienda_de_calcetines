@@ -1,0 +1,53 @@
+.form {
+  width: 400px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 20px auto;
+  padding: 20px 30px;
+  max-width: 95vw;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.form h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+.form input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.form p {
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.form button {
+  display: block;
+  padding: 8px 12px;
+  margin: 10px auto;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form button:hover {
+  background: #78788c;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;    
+}
